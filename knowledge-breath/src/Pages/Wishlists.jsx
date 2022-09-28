@@ -1,5 +1,5 @@
 export default function Wishlists(){
     return (
-        <div></div>
+        <div><h1>Wishlists</h1></div>
     )
 }
