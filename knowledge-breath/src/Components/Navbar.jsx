@@ -3,7 +3,7 @@ import { SearchIcon } from "@chakra-ui/icons";
 import { CgHeart, CgProfile, CgShoppingCart } from "react-icons/cg";
 export default function Navbar() {
   return (
-    <Stack mr="4" ml="4" mt="4" fontWeight="bold" textAlign="center">
+    <Stack mr="4" ml="4" mt="4" fontWeight="bold" textAlign="center" position="sticky"  >
         <Flex  minWidth="max-content" alignItems="center" justifyContent="space-between" gap="2" >
         <Box>
           <Text fontSize='md' colorScheme="yellow">SUBSCRIBE NOW</Text>
