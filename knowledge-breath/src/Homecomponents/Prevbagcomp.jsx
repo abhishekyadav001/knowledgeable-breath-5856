@@ -2,7 +2,7 @@ import { Box, Heading, HStack, Image, Stack, Text, VStack } from "@chakra-ui/rea
 
 export default function Prevbagcomp() {
   return (
-    <VStack width={"100%"}>
+    <VStack paddingBottom="70px" width={"100%"}>
       <Stack>
         <Box margin={"auto"} mb="10" w={"100%"}>
           <Heading size={"xl"} mb="10" paddingBottom={"10px"} borderBottom={"2px double #e5b95f"}>
