@@ -4,11 +4,13 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { ChakraProvider } from "@chakra-ui/react";
-
+import {ParallaxProvider} from "react-scroll-parallax"
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <ChakraProvider>
+    <ParallaxProvider>
     <App />
+    </ParallaxProvider>
   </ChakraProvider>
 );
 
