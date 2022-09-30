@@ -5,6 +5,7 @@ import Prevbagcomp from '../Homecomponents/Prevbagcomp';
 import Subscritption from '../Homecomponents/Subscription';
 import { Testimonials } from '../Homecomponents/Testimonials';
 import Topbanner from '../Homecomponents/Topbanner';
+import Trendingnow from '../Homecomponents/Trendingnow';
 export default function Home(){
 
     return (
@@ -14,6 +15,7 @@ export default function Home(){
     <Subscritption/>
     <Prevbagcomp/>
     <Testimonials/>
+    <Trendingnow/>
      </Stack>
     )
 }

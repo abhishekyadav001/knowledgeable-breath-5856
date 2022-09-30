@@ -4,7 +4,7 @@ import { FaQuoteLeft } from "react-icons/fa";
 import { ParallaxBanner, ParallaxBannerLayer } from 'react-scroll-parallax';
 export function Testimonials() {
   return (
-    <Stack paddingBottom={"1000"} >
+    <Stack paddingBottom={"10"} >
     <ParallaxBanner style={{ aspectRatio: '1 / 1',width:"100%", height:"500px" } }>
   <ParallaxBannerLayer image="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Testimonial-Final_2048x.png?v=1613764249" speed={50} />
   <ParallaxBannerLayer>
