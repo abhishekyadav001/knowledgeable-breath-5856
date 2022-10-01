@@ -24,7 +24,7 @@ export function Testimonials() {
           showIndicators={false}
           showStatus={false}
           infiniteLoop={true}
-          interval={1000}
+          interval={2000}
         >
           <VStack textAlign={"center"} alignItems="center">
             <Heading size={"xl"} mb={"39px"}>

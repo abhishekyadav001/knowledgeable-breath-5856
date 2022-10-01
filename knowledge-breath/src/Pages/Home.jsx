@@ -1,6 +1,7 @@
 
 import { Stack } from '@chakra-ui/react';
 import Bagscomponents from '../Homecomponents/Bagscomponents';
+import Brandslider from '../Homecomponents/Brandslider';
 import Prevbagcomp from '../Homecomponents/Prevbagcomp';
 import Subscritption from '../Homecomponents/Subscription';
 import { Testimonials } from '../Homecomponents/Testimonials';
@@ -16,6 +17,7 @@ export default function Home(){
     <Prevbagcomp/>
     <Testimonials/>
     <Trendingnow/>
+    <Brandslider/>
      </Stack>
     )
 }
