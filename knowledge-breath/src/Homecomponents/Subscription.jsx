@@ -31,7 +31,7 @@ export default function Subscritption() {
             <Text fontSize={"x-small"}>RS. 599.00</Text>
           </Box>
           <Box bg={"yellow.500"} alignItems={"center"}  border={"1px solid #dfe4e6"} padding={"10px"}>
-            <Button bg={"yellow.500"} color={"white"} width={"100%"} border={"1px"}>
+            <Button bg={"yellow.500"} color={"white"} width={"100%"} border={"1px"} _hover={{color:"black",bgColor:"yellow.500"}}>
               Add to Cart
             </Button>
           </Box>

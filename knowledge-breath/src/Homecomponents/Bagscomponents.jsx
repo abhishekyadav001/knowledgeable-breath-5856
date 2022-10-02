@@ -27,7 +27,7 @@ export default function Bagscomponents() {
               SUGAR Air Kiss Powder Lipstick of your choice*
             </Text>
           </VStack>
-          <VStack paddingRight={"2px"} paddingLeft={"2px"} justifyContent={"center"}>
+          <VStack _hover={{bgcolor:"black"}} paddingRight={"2px"} paddingLeft={"2px"} justifyContent={"center"}>
             <Image
               width="100%"
               border={"3px solid #e5b95f"}
